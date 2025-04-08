@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CareerMitra Chatbot</title>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <style>
+    df-messenger {
+      --df-messenger-button-titlebar-color: #004aad;
+      --df-messenger-chat-background-color: #ffffff;
+      --df-messenger-font-color: #000000;
+      --df-messenger-button-titlebar-font-color: #ffffff;
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <df-messenger
+    intent="WELCOME"
+    chat-title="CareerMitra"
+    agent-id="d51f001a-20f9-4d76-ad30-17ead4302ad6"
+    language-code="en">
+  </df-messenger>
+
+</body>
+</html>
